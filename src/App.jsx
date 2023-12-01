@@ -12,7 +12,9 @@ function App() {
 
   const getQuestionsFunction = async () => {
     try {
-      const response = await fetch('https://6564c40aceac41c0761ec5fd.mockapi.io/api/quiz_questions/quiz');
+      const response = await fetch(
+        "https://6564c40aceac41c0761ec5fd.mockapi.io/api/quiz_questions/quiz"
+      );
       const questionsResponse = await response.json();
       console.log(questionsResponse);
       setQuestions(questionsResponse);
