@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import React from 'react'; 
+import React from "react";
 import "./StartPage.scss";
 import gifSource from "../../assets/test_tubes.gif";
 

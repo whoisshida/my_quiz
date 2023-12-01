@@ -22,8 +22,6 @@ describe("StartPage component", () => {
 
     // Check if the button is rendered
     expect(screen.getByText("Start Quiz")).toBeInTheDocument();
-
-    // You can add more tests for other elements as needed
   });
 
   it('calls useNavigate when the "Start Quiz" button is clicked', () => {
